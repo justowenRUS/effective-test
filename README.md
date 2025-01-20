@@ -25,7 +25,7 @@ playwright install
 
 ## **Запуск тестов**
 
-### **. Запуск тестов с отчетом `Allure`**
+### **3. Запуск тестов с отчетом `Allure`**
 
 ```sh
 pytest --alluredir results
