@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)  
 ![Pytest](https://img.shields.io/badge/Pytest-%3E%3D8.0-orange.svg)  
 ![Static Badge](https://img.shields.io/badge/Allure-%3E%3D2.13-darkyellow.svg)
+
 ---
 
 ## **Установка и настройка**
@@ -25,7 +26,7 @@ playwright install
 
 ## **Запуск тестов**
 
-### **3. Запуск тестов с отчетом `Allure`**
+### **Запуск тестов с отчетом `Allure`**
 
 ```sh
 pytest --alluredir results
@@ -40,15 +41,15 @@ allure serve reports
 ```
 effective-test/
 │── tests/
-│   ├── test_main_page.py   
+│   ├── test_main_page.py
 │
 │── pages/
-│   ├── base_page.py       
-│   ├── main_page.py       
+│   ├── base_page.py
+│   ├── main_page.py
 │
-│── conftest.py            
-│── requirements.txt       
-│── README.md              
+│── conftest.py
+│── requirements.txt
+│── README.md
 ```
 
 ---
