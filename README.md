@@ -40,15 +40,15 @@ allure serve reports
 ```
 effective-test/
 │── tests/
-│   ├── test_main_page.py   # Тесты товаров
+│   ├── test_main_page.py   
 │
 │── pages/
-│   ├── base_page.py       # Главная страница
-│   ├── main_page.py    # Страница товара
+│   ├── base_page.py       
+│   ├── main_page.py       
 │
-│── conftest.py            # Фикстуры pytest
-│── requirements.txt       # Зависимости проекта
-│── README.md              # Описание проекта
+│── conftest.py            
+│── requirements.txt       
+│── README.md              
 ```
 
 ---
